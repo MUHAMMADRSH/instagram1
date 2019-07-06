@@ -1,0 +1,82 @@
+name: instagram1
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - images/1.jpg
+    - images/benyamin.jpg
+    - images/2.jpg
+    - images/3.jpg
+    - images/4.jpg
+    - images/5.jpg
+    - images/6.jpg
+    - images/7.jpg
+    - images/122.jpg
+
+  fonts:
+     - family: billabong
+       fonts:
+         - asset: fonts/Billabong.ttf
+     - family: lemon
+       fonts:
+         - asset: fonts/Lemon Jelly Personal Use.ttf
+
+     - family: vegan
+       fonts:
+         - asset: fonts/Vegan Style Personal Use.ttf
+
+     - family: insta
+       fonts:
+         - asset: fonts/ic-insta.ttf
+
+     - family: camera
+       fonts:
+         - asset: fonts/ic-camera.ttf
+
+     - family: circle
+       fonts:
+         - asset: fonts/ic-circle.ttf
+
+     - family: like
+       fonts:
+         - asset: fonts/ic-like.ttf
+
+     - family: mark
+       fonts:
+         - asset: fonts/bookmark.ttf
+
+     - family: home
+       fonts:
+         - asset: fonts/home.ttf
+
+     - family: send
+       fonts:
+         - asset: fonts/send.ttf
+
